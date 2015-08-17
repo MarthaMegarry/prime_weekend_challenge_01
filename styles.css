@@ -1,0 +1,75 @@
+html, body, header, main, form, ul, li, p, footer, label, input, h1, h2, .empForm {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #006600;
+}
+
+main {
+	width: 1000px;
+	margin: 0px auto 0px auto;
+	background-color: white;
+	padding-bottom: 10px;
+}
+
+header {
+	background-color: #FF9966;
+	padding: 30px;
+}
+
+form {
+	padding-left: 30px;
+	padding-top: 10px; 
+	padding-bottom:10px;
+}
+
+label, input {
+	display: block;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input[type="submit"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+li {
+	list-style: none;
+	margin: 10px;
+	padding-left: 20px
+}
+
+h2 {
+	margin-bottom: 10px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #CCFF66;
+}
+
+.button {
+	background-color: red;
+	display: inline;
+	padding: 5px;
+}
+
+.hide {
+	display: none;
+}
+
+.low {
+	background-color: red;
+}
+
+.middle {
+	background-color: yellow;
+}
+
+.high {
+	background-color: green;
+}
