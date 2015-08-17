@@ -1,4 +1,4 @@
-html, body, header, main, form, ul, li, p, footer, label, input, h1, h2, .empForm {
+html, body, header, footer, main, form, button, ul, li, p, footer, label, input, h1, h2, .empForm {
 	margin: 0px;
 	padding: 0px;
 }
@@ -11,12 +11,16 @@ main {
 	width: 1000px;
 	margin: 0px auto 0px auto;
 	background-color: white;
-	padding-bottom: 10px;
 }
 
 header {
 	background-color: #FF9966;
 	padding: 30px;
+}
+
+footer {
+	background-color: #FF9966;
+	height: 100px;
 }
 
 form {
@@ -52,24 +56,24 @@ h2 {
 	background-color: #CCFF66;
 }
 
-.button {
+button {
 	background-color: red;
 	display: inline;
 	padding: 5px;
 }
 
-.hide {
-	display: none;
+.score1{
+  background-color: red;
 }
-
-.low {
-	background-color: red;
+.score2{
+  background-color: orange;
 }
-
-.middle {
-	background-color: yellow;
+.score3{
+  background-color: yellow;
 }
-
-.high {
-	background-color: green;
+.score4{
+  background-color: lightgreen;
+}
+.score5{
+  background-color: green;
 }
